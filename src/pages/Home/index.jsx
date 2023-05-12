@@ -29,7 +29,7 @@ export default function Home(){
                 <Button title="Começar agora" variant="secondary" onClick={handleClickSignIn}/>
             </div>
             <div>
-                <a href="https://github.com/pablohdev/dio-clone/blob/master/src/components/Header/index.jsx">
+                <a href="https://github.com/paulohramoss/dio-clone" target="_blank" rel="noreferrer">
                 <img src={bannerImage} alt="Imagem principal do site." />
                 </a>
             </div>
