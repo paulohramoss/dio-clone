@@ -1,17 +1,14 @@
+import { Container, Title, Column, TitleLogin, 
+SubtitleLogin, EsqueciText, CriarText, Row, Wrapper } from './styles';
 import { useNavigate  } from "react-router-dom";
 import { MdEmail, MdLock } from 'react-icons/md'
 import { Button } from '../../components/Button';
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
+import { useForm } from "react-hook-form";
 import { api } from '../../services/api';
 
-import { useForm } from "react-hook-form";
-
-
-import { Container, Title, Column, TitleLogin, SubtitleLogin, EsqueciText, CriarText, Row, Wrapper } from './styles';
-
 export default function Login(){
-
     const navigate = useNavigate()
 
     const { control, handleSubmit, formState: { errors  } } = useForm({
